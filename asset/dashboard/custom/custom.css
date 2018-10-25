@@ -1,0 +1,133 @@
+.error {
+  color: #e74c3c;
+}
+
+.upper {
+
+  text-transform: uppercase;
+}
+
+.white{
+	background: url("../assets/img/library_photo.jpg") no-repeat cover / center;
+}
+
+.fader {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top:0;
+	left:0;
+	z-index: -99;
+}
+
+/* N */
+.naira{
+position: absolute;
+width: 9px;
+height: 15px;
+left: 323px;
+top: 146px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 12px;
+
+color: #000000;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 9px;
+height: 1px;
+left: 323px;
+top: 153px;
+
+background: #0D0C0C;
+
+
+/* Rectangle */
+
+position: absolute;
+width: 9px;
+height: 1px;
+left: 323px;
+top: 151px;
+
+background: #0D0C0C;
+
+}
+
+/*#user fieldset {
+	background-color: #fff;
+	border:0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	box-sizing: border-box;
+	padding: 20px 30px;
+	margin: 0 10%;
+}
+
+#user fieldset:not(:first-of-type) {
+	display: none;
+}
+
+.fs-title{
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+
+#progressbar {
+	margin-bottom: 30px;
+	overflow: hidden;
+	counter-reset: step;
+}
+
+#progressbar li {
+	list-style-type: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 9px;
+	float: left;
+	width: 33.33%;
+	position: relative;
+}
+
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 20px;
+	line-height: 20px;
+	display: block;
+	font-size: 10px;
+	color: #333;
+	background: white;
+	border-radius: 3px;
+	margin: 0 auto 5px auto;
+}
+
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: white;
+	position: absolute;
+	left: -50%;
+	top: 9px;
+	z-index: -1; 
+}
+
+#progressbar li:first-child:after {
+	content: none;
+
+}
+
+#progressbar li.active:before, #progressbar li.active:after  {
+	background: #27AE60;
+	color:white;
+	
+}*/
